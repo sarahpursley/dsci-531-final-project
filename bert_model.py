@@ -42,35 +42,35 @@ def run_bert(df):
 
     return result_df
 
+if __name__ == '__main__':
+    # initialize the tokenizer from pretrained BERT model 
+    # https://github.com/VinAIResearch/BERTweet
+    tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", normalization=True)
+    model = AutoModel.from_pretrained("vinai/bertweet-base" )
 
-# initialize the tokenizer from pretrained BERT model 
-# https://github.com/VinAIResearch/BERTweet
-tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", normalization=True)
-model = AutoModel.from_pretrained("vinai/bertweet-base" )
+    dapl_input_before = "data/joined_data_before.csv"
+    dapl_input_after = "data/joined_data_after.csv"
 
-dapl_input_before = "data/joined_data_before.csv"
-dapl_input_after = "data/joined_data_after.csv"
+    before_output_file
+    after_output_file
 
-before_output_file
-after_output_file
+    # read in tweet data from "Before" period, no extra pre-processing
+    df_before = pd.read_csv(dapl_input_before)
 
-# read in tweet data from "Before" period, no extra pre-processing
-df_before = pd.read_csv(dapl_input_before)
+    # sample the after data to run model on smaller sample
+    # take random sample so the dates and tweets are randomly distributed
+    df_after = pd.read_csv(dapl_input_after)
+    df_after = df_after.dropna(subset=['content'])
+    df_sampled = df_after.sample(frac=0.75, replace=True, random_state=1).reset_index()
 
-# sample the after data to run model on smaller sample
-# take random sample so the dates and tweets are randomly distributed
-df_after = pd.read_csv(dapl_input_after)
-df_after = df_after.dropna(subset=['content'])
-df_sampled = df_after.sample(frac=0.75, replace=True, random_state=1).reset_index()
+    # save intermedidate to csv
+    df_sampled.to_csv('data/sampled_after_data.csv', index=False)
 
-# save intermedidate to csv
-df_sampled.to_csv('data/sampled_after_data.csv', index=False)
+    # run bert models
+    bert_model_before = run_bert(df_before)
+    bert_model_after = run_bert(df_sampled)
 
-# run bert models
-bert_model_before = run_bert(df_before)
-bert_model_after = run_bert(df_sampled)
-
-# write out bert results
-bert_model_before.to_csv(output_file)
-bert_model_after.to_csv(output_file)
+    # write out bert results
+    bert_model_before.to_csv(output_file)
+    bert_model_after.to_csv(output_file)
 
