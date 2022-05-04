@@ -48,7 +48,7 @@ _To run the main analysis, we have included the final input data and R scripts._
    ```
 2. Download and install RStudio for running R code: https://www.rstudio.com/products/rstudio/download/
 4. Navigate to cloned repository on your local machine
-5. Open the following files:
+5. Open the following files located in the regression folder:
 
   * [regression.R](regression/regression.R)
   * [plot-twitter-data.R](regression/plot-twitter-data.R)
