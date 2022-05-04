@@ -25,13 +25,10 @@ We completed the analysis for this project using both R and Python programming l
 * [R](https://www.r-project.org/)
 * [Python](https://www.python.org/)
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Instructions
-To generate our project results, we have included the following instructions.
 
 ### Downloading & Running Code
 _To run the main analysis, we have included the final input data and R scripts._
@@ -56,7 +53,7 @@ _To run the main analysis, we have included the final input data and R scripts._
 6. Run script in RStudio
 
 #### Additional Code
-We have also included the code we used for data collection and pre-processing. However, we have included the final input data under the data folder as this code takes a long time to run. It is not necessary to run this code but we have included them for reference.
+We have also included the code we used for data collection and pre-processing. However, we have included the processed data as this code takes a long time to run. It is not necessary to run this code but we have included them for reference.
 
 Data Collection
    ```sh
