@@ -60,19 +60,22 @@ We completed the analysis for this project using both R and Python programming l
 ## Instructions
 To generate our project results, we have included the following instructions.
 
-### Prerequisites
+### Downloading & Running Code
 
 1. Clone the repository onto local machine 
    ```sh
    git clone https://github.com/your_username/Project-Name.git
    ```
 2. Download and install RStudio for running R code: https://www.rstudio.com/products/rstudio/download/
-3. Navigate to local repository and open "regression.R"
+4. Navigate to cloned repository on your local machine
+5. Open "regression/regression.R" and "regression/plot-twitter-data.R"
 
+[this subtext](regression/regression.R)
 
-### Additional Code
+7. Run script in RStudio
+
+#### Additional Code
 We have also included the code we used for data collection and pre-processing. However, we have included the final input data under the data folder as this code takes a long time to run. 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 Data Collection
    ```sh
@@ -89,16 +92,16 @@ BERTweet Matching & PCA
    ```sh
    jupyter notebook
    ```
-2. Run code in notebook
-
-
+2. Open "matching-data.ipynb"
+3. Run code in Jupyter notebook
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Poet Larson  - Poet.Larson@usc.edu
+Sarah Pursley - spursley@usc.edu
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
