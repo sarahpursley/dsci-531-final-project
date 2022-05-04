@@ -70,7 +70,7 @@ BERTweet Matching & PCA
    ```sh
    jupyter notebook
    ```
-2. Open "matching-data.ipynb"
+2. Open "pre-processing/matching-data.ipynb"
 3. Run code in Jupyter notebook
 
 <p align="right">(<a href="#top">back to top</a>)</p>
