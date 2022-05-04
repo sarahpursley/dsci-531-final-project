@@ -84,6 +84,6 @@ BERTweet Matching & PCA
 Poet Larson  - Poet.Larson@usc.edu
 Sarah Pursley - spursley@usc.edu
 
-Project Link: [https://github.com/sarahpursley/dsci-531-final-project.git]https://github.com/sarahpursley/dsci-531-final-project.git)
+Project Link: [https://github.com/sarahpursley/dsci-531-final-project.git](https://github.com/sarahpursley/dsci-531-final-project.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
