@@ -44,7 +44,7 @@ The following files are found in the data folder:
 
 1. Clone the repository onto local machine 
    ```sh
-   git clone https://github.com/your_username/Project-Name.git
+   git clone https://github.com/sarahpursley/dsci-531-final-project.git
    ```
 2. Download and install RStudio for running R code: https://www.rstudio.com/products/rstudio/download/
 4. Navigate to cloned repository on your local machine
@@ -84,6 +84,6 @@ BERTweet Matching & PCA
 Poet Larson  - Poet.Larson@usc.edu
 Sarah Pursley - spursley@usc.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/sarahpursley/dsci-531-final-project.git]https://github.com/sarahpursley/dsci-531-final-project.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
