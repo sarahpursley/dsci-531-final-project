@@ -2,31 +2,6 @@
 ## Shadow Banning on Social Media 
 <div id="top"></div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#About">About The Project</a>
-      <ul>
-        <li><a href="#Programming Languages">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="Running the Code">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -42,8 +17,6 @@ Data Analysis
 * BERTweet, PCA, Regression 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Programming Languages
 
@@ -61,6 +34,11 @@ We completed the analysis for this project using both R and Python programming l
 To generate our project results, we have included the following instructions.
 
 ### Downloading & Running Code
+_To run the main analysis, we have included the final input data and R scripts._
+Input data:
+The following files are found in the data folder:
+  Final Control Input Data: [final_control_df.csv](final_control_df.csv)
+  Final Treated Input Data: [plot-twitter-data.R](final_treated_df.csv)
 
 1. Clone the repository onto local machine 
    ```sh
@@ -68,20 +46,21 @@ To generate our project results, we have included the following instructions.
    ```
 2. Download and install RStudio for running R code: https://www.rstudio.com/products/rstudio/download/
 4. Navigate to cloned repository on your local machine
-5. Open "regression/regression.R" and "regression/plot-twitter-data.R"
+5. Open the following files:
 
-[this subtext](regression/regression.R)
+  [regression.R](regression/regression.R)
+  [plot-twitter-data.R](regression/plot-twitter-data.R)
 
-7. Run script in RStudio
+6. Run script in RStudio
 
 #### Additional Code
-We have also included the code we used for data collection and pre-processing. However, we have included the final input data under the data folder as this code takes a long time to run. 
+We have also included the code we used for data collection and pre-processing. However, we have included the final input data under the data folder as this code takes a long time to run. It is not necessary to run this code but we have included them for reference.
 
 Data Collection
    ```sh
    python pre-processing/get_tweets.py
    ```
-
+   
 BERTweet
    ```sh
    python pre-processing/bert_model.py
