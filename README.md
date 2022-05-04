@@ -10,8 +10,10 @@ In this project, we are interested in two questions: do companies shadow-ban, an
 
 This repository contains the code we used to conduct our analysis. We have included code for data collection and pre-processing as well as our final regression analysis.
 
+
 Data Source:
 * Twitter API using snscrape python package
+* Pulled tweets with hashtags related to Dakota Access Pipeline (DAPL) protests
 
 Data Analysis
 * BERTweet, PCA, Regression 
