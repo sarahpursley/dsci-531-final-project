@@ -39,8 +39,8 @@ _To run the main analysis, we have included the final input data and R scripts._
 Input data:
 
 The following files are found in the data folder:
-  *Final Control Input Data: [final_control_df.csv](final_control_df.csv)
-  *Final Treated Input Data: [plot-twitter-data.R](final_treated_df.csv)
+  * Final Control Input Data: [final_control_df.csv](final_control_df.csv)
+  * Final Treated Input Data: [plot-twitter-data.R](final_treated_df.csv)
 
 1. Clone the repository onto local machine 
    ```sh
